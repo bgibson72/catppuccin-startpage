@@ -16,7 +16,7 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "personal",
       background_url: "src/img/banners/cbg-09.gif",
       categories: [
         {
@@ -50,12 +50,6 @@ const default_config = {
               url: "https://calendar.google.com",
               icon: "calendar-filled",
               icon_color: palette.peach,
-            },
-            {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
             },
             {
               name: "drive",
